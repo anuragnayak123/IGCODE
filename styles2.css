@@ -1,0 +1,177 @@
+/* Title */
+
+.logo {
+    width: 4%;
+}
+
+#title {
+    background-color: #5B84B1FF;
+    padding: 1% 10% 5%;
+}
+
+.title,
+.title-col {
+    padding: 1rem;
+}
+
+.title-img {
+    text-align: center;
+}
+
+.big-heading {
+    color: white;
+    font-family: "Montserrat-Bold";
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.doge {
+    width: 80%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.download-btn {
+    margin: 3% 3% 5% 0;
+}
+
+h4 {
+    margin-bottom: 3rem;
+    color: #DFDFDE;
+}
+
+.navbar {
+    padding-bottom: 3rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav-item {
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+
+/* Features */
+
+#features {
+    padding: 9% 0;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.feat-img {
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.feat-img:hover {
+    transform: scale(1.2);
+}
+
+.feat-p {
+    color: #73777B;
+    font-size: 1.1rem;
+}
+
+.features-text {
+    color: #3F4E4F;
+    font-weight: bold;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #5B84B1FF;
+    padding: 3% 0;
+}
+
+.test-img1 {
+    border-radius: 20%;
+    width: 30%;
+    height: 20rem;
+    margin: 4% 0 1%;
+}
+
+.test-img2 {
+    border-radius: 20%;
+    width: 40%;
+    height: 30rem;
+    margin: 4% 0;
+}
+
+.test {
+    color: white;
+    padding: 0 20%;
+    text-align: left;
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+
+.test-sub {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* Deliver */
+
+#deliver {
+    text-align: center;
+    padding: 5% 0;
+    background-color: whitesmoke;
+}
+
+.deliver {
+    margin: 3% 7%;
+}
+
+h5 {
+    display: inline;
+}
+
+
+/* Download */
+
+#download {
+    background-color: #5B84B1FF;
+    padding: 5% 7%;
+    color: white;
+    text-align: center;
+}
+
+.download {
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    padding: auto 5% auto;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.font-awesome-footer {
+    margin: 1% 1%;
+    color: black;
+}
+
+@media(max-width:1028px) {
+    .logo {
+        width: 10%;
+    }
+}

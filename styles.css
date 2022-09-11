@@ -1,0 +1,227 @@
+/* Navbar */
+
+.navbar {
+    background-color: whitesmoke;
+}
+
+.nav-img {
+    margin: 0 1% 1%;
+    height: 100%;
+    width: 7%;
+}
+
+.navbar-toggler {
+    background-color: #73777B;
+}
+
+.nav-link {
+    color: black;
+    font-style: Roboto;
+    font-size: 1.2rem;
+    margin: 1%;
+}
+
+.nav-link:hover {
+    color: #7FBCD2;
+    text-decoration: underline;
+}
+
+
+/* Title */
+
+.i3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 2px #1363DF;
+    text-align: left;
+}
+
+.title-row {
+    text-align: left;
+    color: white;
+    background-image: url("bgimgdark.jpg");
+    padding: 7% 15%;
+}
+
+.title-image {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 10%;
+    object-fit: cover;
+    position: relative;
+    bottom: 5%;
+}
+
+.title-text {
+    color: #F9F9F9;
+    font-family: "Montserrat-Light";
+    font-size: 120%;
+    font-weight: 600;
+}
+
+
+/* Project cards*/
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+.btn:hover {
+    background-color: #A2B5BB;
+}
+
+.card:hover {
+    background-color: #F6F6F6;
+    transform: scale(1.1);
+}
+
+.card-text {
+    text-align: left;
+    font-weight: 400;
+    color: #73777B;
+}
+
+.cusmat {
+    margin: 17% 0;
+}
+
+.doge {
+    text-align: center;
+}
+
+#projects {
+    background-color: whitesmoke;
+    padding-top: 3%;
+}
+
+.project-col {
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.project-img {
+    padding: 3% 0;
+}
+
+.project-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px #D9F8C4;
+    text-align: center;
+}
+
+
+/* Slides */
+
+.carousel-img {
+    padding: 3% 10% 3%;
+    width: 50%;
+    height: 30rem;
+}
+
+.carousel {
+    background-image: url("bgimgdark.jpg");
+    padding-top: 2%;
+}
+
+.col {
+    font-family: Montserrat;
+    padding: 3px 3px;
+    line-height: 1.5;
+}
+
+#slides {
+    text-align: center;
+}
+
+.slides-text {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 4px 4px 2px #1363DF;
+}
+
+
+/* Contact us */
+
+#contact {
+    background-color: whitesmoke;
+    color: #73777B;
+}
+
+.contact-text {
+    font-family: "Merriweather";
+    /* color: #73777B; */
+    font-weight: bolder;
+}
+
+.btn-form {
+    margin-top: 5%;
+}
+
+.col-right {
+    text-align: right;
+    padding-top: 0.7%;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 2% 3%;
+}
+
+.contact-text {
+    padding: 7% 7%;
+    line-height: 1.5;
+}
+
+.contact-form {
+    padding-top: 3%;
+}
+
+.footer {
+    background-color: #CFD2CF;
+    padding: 1% 5%;
+    color: black;
+    font-family: "Montserrat";
+}
+
+.footer-img {
+    display: inline;
+    margin-right: 3%;
+}
+
+.font-awesome-footer {
+    margin: 1% 2%;
+    color: black;
+}
+
+.font-awesome-footer:hover {
+    color: white;
+}
+
+@media(max-width:1028px) {
+    .card:hover {
+        transform: scale(1.01);
+    }
+    .nav-img {
+        width: 10%;
+        height: 10%;
+    }
+    .slides-text {
+        text-shadow: 3px 3px 2px #1363DF;
+    }
+    .title-image,
+    .carousel-img {
+        position: static;
+        height: 400px;
+        width: 80%;
+    }
+    .title-row {
+        text-align: center;
+        padding: 5% 10%;
+    }
+}
